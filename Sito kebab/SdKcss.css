@@ -1,0 +1,352 @@
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<stile>
+
+
+
+
+body {
+  font-family: Times New Roman, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  cursor: url("ezgif-3-4ff03e72e8c9.gif"),default;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+.row: after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  cursor: url("Millennium Falcon Star Wars alt left select.cur"),default;
+}
+
+
+
+
+h2 {
+ 
+   text-shadow: 2px 2px 5px yellow;
+}
+
+
+.glow {
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px black, 0 0 30px black, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+///////////////////////////////////////////////////////////
+
+.column {
+  float: left;
+  width: 31%;
+  padding: 0 10px;
+}
+
+
+.row {margin: 0 -5px;}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+ 
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  min-width: 200px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 25px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.row {
+  display: flex;
+}
+
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 20px;
+  background-color: #000066;
+  cursor: url("Porg normal select.cur"),default;
+}
+
+#blog {
+  top: 80px;
+  background-color: #333399;
+  cursor: url("Porg normal select.cur"),default;
+}
+
+#projects {
+  top: 140px;
+  background-color: #666699;
+  cursor: url("Porg normal select.cur"),default;
+}
+
+
+///////////////////////////////////////////
+
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+
+.right {
+  text-align: right;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+.bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
+.grabbing   {
+	cursor: url("ezgif-3-4ff03e72e8c9.gif"),default;
+	}
+.crosshair {
+	cursor: url("Millennium Falcon Star Wars alt left select.cur"),default;
+}	
+.b{
+	cursor: url("Chewbacca & the Porgs normal select.cur"),default;
+}
+////////////////////////////////////////////////////////////
+hr.solid {
+  border-top: 7px solid #bbb;
+}
+
+@media screen and (max-width: 800px) {
+ 
+
+#mySidenav a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 20px;
+  background-color: #800000;
+  cursor: url("Porg in Kylo Ren Helmet non-animated normal select (1).cur"),default;
+}
+
+#blog {
+  top: 80px;
+  background-color: #990000;
+  cursor: url("Porg in Kylo Ren Helmet non-animated normal select (1).cur"),default;
+}
+
+#projects {
+  top: 140px;
+  background-color: #b30000;
+  cursor: url("Porg in Kylo Ren Helmet non-animated normal select (1).cur"),default;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+.bar-5 {width: 60%; height: 18px; background-color: #800000;}
+.bar-4 {width: 30%; height: 18px; background-color: #990000;}
+.bar-3 {width: 10%; height: 18px; background-color: #b30000;}
+.bar-2 {width: 4%; height: 18px; background-color: #cc0000;}
+.bar-1 {width: 15%; height: 18px; background-color: #e60000;}
+
+.header {
+  padding: 80px;
+  text-align: center;
+  cursor: url("star wars tie fighter.cur"),default;
+}
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  cursor: url("Shadow Stormtrooper normal select.cur"),default;
+}
+
+
+  }
+
+
+
+</style>
